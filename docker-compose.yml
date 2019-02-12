@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  app:
+    build: .
+    command: /code/start_app.sh
+    volumes:
+      - .:/code
+    ports:
+      - "8100:8100"
+      - "8200:8200"
+    
