@@ -9,7 +9,7 @@ RUN apt-get update && \
   echo "$USR ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers && \
   mkdir /code && \
   chown -R $USR:$USR /code/ && \
-  npm install -g expo-cli
+  npm install -g ionic
 
 USER $USR:$USR 
 WORKDIR /code
