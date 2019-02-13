@@ -1,3 +1,5 @@
+#!/bin/bash
+
 for d in */ ; do
     app_dir="$d"
     break
