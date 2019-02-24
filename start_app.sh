@@ -6,4 +6,4 @@ for d in */ ; do
 done
 
 cd $app_dir
-ionic serve
+ionic serve -- --disable-host-check 
