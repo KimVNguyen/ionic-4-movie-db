@@ -1,1 +1,1 @@
-docker-compose run app ionic $*
+docker-compose run app bash
