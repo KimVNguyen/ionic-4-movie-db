@@ -6,4 +6,4 @@ for d in */ ; do
 done
 
 cd $app_dir
-ionic serve -- --disable-host-check 
+ionic serve -- --disable-host-check --nobrowser
